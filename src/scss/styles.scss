@@ -36,12 +36,16 @@
     }
 } 
 
+//.container, h2{
+   // margin-top: 15px;
+//}
+
 h1 {
     font-family: "IM Fell Great Primer SC", serif;
 }
 
-h2 {
-    padding-top: 15px;
+h7 {
+    font-weight: bold;
 }
 
 header {
@@ -59,4 +63,9 @@ footer {
     padding-top: 10px;
     padding-bottom: 3px;
     margin-top: 25px;
+}
+
+.byline{
+    font-style: italic;
+    font-weight: lighter;
 }
