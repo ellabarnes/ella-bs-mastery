@@ -16,11 +16,43 @@
 // $body-color: white;
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
+ $primary: #353E43;
+ $navbar-dark-color: white;
+
 
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+
 
 // Import partials:
 
 // Custom styles:
 
+.navbar { 
+
+    a:hover{
+        text-decoration: underline;
+    }
+} 
+
+h1 {
+    font-family: "IM Fell Great Primer SC", serif;
+}
+
+header {
+    background-color: #ffffff;
+    background-image: url(../img/pirate-photos/pirate-ship.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+footer {
+    background-color: teal;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    margin-top: 25px;
+}
